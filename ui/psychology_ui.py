@@ -13,8 +13,8 @@ from dialogue.hunyuan_client import HunyuanClient
 # 1. 初始化混元客户端
 # ---------------------------
 model_client = HunyuanClient(
-    secret_id="AKIDJVVJuHQM4ZrvmPo24BLI1XqvnY7Silbw",
-    secret_key="GMFxc6NRM4bv25z86xHYcWFnBQWR8bzA"
+    secret_id="",
+    secret_key=""
 )
 
 # ---------------------------
@@ -155,3 +155,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = QuizUI(root, num_questions=40, page_size=10)
     root.mainloop()
+
