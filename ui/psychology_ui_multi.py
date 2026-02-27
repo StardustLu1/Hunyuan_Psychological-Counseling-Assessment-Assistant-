@@ -32,8 +32,8 @@ PROJECT_ROOT = os.path.abspath(os.path.join(CURRENT_DIR, ".."))  # Graduation pr
 # 1. 初始化混元客户端
 # ---------------------------
 model_client = HunyuanClient(
-    secret_id="AKIDJVVJuHQM4ZrvmPo24BLI1XqvnY7Silbw",
-    secret_key="GMFxc6NRM4bv25z86xHYcWFnBQWR8bzA"
+    secret_id="",
+    secret_key=""
 )
 
 # ---------------------------
@@ -276,3 +276,4 @@ class QuizUI:
 if __name__ == "__main__":
     app = QuizUI(None)
     app.root.mainloop()
+
