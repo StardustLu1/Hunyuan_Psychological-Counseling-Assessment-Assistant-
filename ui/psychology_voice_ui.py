@@ -40,8 +40,8 @@ class PsychologyVoiceUI:
         # 模型
         # =========================
         self.model_client = HunyuanClient(
-            secret_id="AKIDJVVJuHQM4ZrvmPo24BLI1XqvnY7Silbw",
-            secret_key="GMFxc6NRM4bv25z86xHYcWFnBQWR8bzA"
+            secret_id="",
+            secret_key=""
         )
         self.chat_pipeline = PsychologyChatPipeline(self.model_client)
 
@@ -234,3 +234,4 @@ class PsychologyVoiceUI:
 
 if __name__ == "__main__":
     PsychologyVoiceUI().run()
+
