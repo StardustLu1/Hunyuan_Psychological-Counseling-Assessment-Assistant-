@@ -9,8 +9,8 @@ from PyInstaller.utils.hooks import (
 # ======================================================
 # 项目路径配置
 # ======================================================
-project_root = Path(r"D:\project\YOLOv12\yolov12\finalwork2\Graduation project")
-site_packages_path = r"C:\Users\ZeningLi\.conda\envs\yolov12\Lib\site-packages"
+project_root = Path(r"YOLOv12\yolov12\...\Graduation project")
+site_packages_path = r".conda\envs\yolov12\Lib\site-packages"
 
 block_cipher = None
 
@@ -129,3 +129,4 @@ coll = COLLECT(
     upx=True,
     name="psychology_main_ui",
 )
+
